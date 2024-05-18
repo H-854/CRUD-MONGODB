@@ -35,6 +35,7 @@
                 <form action="/chats/<%=chat._id%>?_method=DELETE" method="post">
                     <button>Delete</button>
                 </form>
+                <a href="/chats/<%=chat._id%>/show" style="text-decoration: none;">SHOW</a>
             </div>
             <p>Recieved By : <%=chat.to%></p>
             <hr>
